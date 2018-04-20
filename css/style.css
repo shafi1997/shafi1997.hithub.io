@@ -1,0 +1,444 @@
+.nav_bar {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    border-bottom: 1px solid white;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.6);
+}
+
+slide_z {
+    z-index: -1;
+}
+.carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+
+.welcome {
+    padding: 60px 0 45px 0;
+    background: #003366;
+    color: #E4E9EF;
+}
+
+.welcome p {
+    line-height: 1.5;
+    padding: 10px 0 10px 0;
+}
+
+.notict_management_admission {
+    padding: 70px 0 70px 0;
+}
+
+.marque_notice {
+    height: 295px;
+    border: 1px solid #DFDFDF;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.marque_notice marquee {
+   height: 295px;
+   margin: 0px 8px 0 8px;
+   
+}
+
+.marque_notice marquee p a {
+    color: black;
+}
+
+.marque_notice marquee p:hover {
+    background: #E2E6EA;
+    border-radius: 4px;
+}
+
+.marque_notice marquee p a:hover {
+    text-decoration: none;
+}
+
+.management li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    display: block;
+}
+
+.marque_news {
+    height: 332px;
+    border: 1px solid #DFDFDF;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.marque_news marquee {
+    height: 332px;
+   margin: 0px 8px 0 8px;
+}
+
+.marque_news marquee p a {
+    color: white;
+}
+
+.marque_news marquee p:hover {
+    background: #2D2E30;
+    border-radius: 4px;
+}
+
+.marque_news marquee p a:hover {
+    text-decoration: none;
+}
+
+.management li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    display: block;
+}
+
+.photo_gallery_body {
+    background: red;
+    padding: 60px 0 65px 0;
+}
+
+.logo {
+    background: #DCDCDC;
+    padding: 60px 0 70px 0;
+}
+
+.logo_border img {
+    padding: 5px 30px 5px 30px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.logo_border_canada img {
+    padding: 42px 30px 42px 30px;
+    border: 1px solid #DFDFDF;
+    border-radius: 5px;
+}
+
+.footer {
+    padding: 55px 0 40px 0;
+    background: #343A40;
+}
+
+.footer .quick_links p {
+    margin: 8px 0 8px 0;
+}
+
+.footer .quick_links p a {
+    color: #E2E6EA;
+    padding: 0px;
+}
+
+.copyrightt {
+    width: 100%;
+    background: #2d3237;
+    color: lightgrey;
+    box-shadow: 0px -5px 8px 0px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.copyrightt .mait {
+    margin: 0;
+    padding: 18px;
+    float: left;
+}
+
+.copyrightt .shafi {
+    margin: 0;
+    padding: 18px;
+    float: right;
+}
+
+#mySidenav {
+    position: sticky;
+    top: 150px;
+    z-index: 1;
+}
+
+
+/*---------Social Link--------*/
+#mySidenav a {
+    position: absolute;
+    left: -90px;
+    transition: 0.7s;
+    padding: 5px;
+    width: 128px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 2px 2px 0;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+#facebook {
+    top: 20px;
+    background-color: #4267B2;
+}
+
+#youtube {
+    top: 64px;
+    background-color: #FF0000;
+}
+
+#googl {
+    top: 106px;
+    background-color: #DD4B39;
+}
+
+
+/*--------diploma_in_engineering & Short Courses Page -----------*/
+.diploma_in_engineering_title {
+    padding: 60px 0;
+    text-align: center;
+    background: #003366;
+    color: #E4E9EF;
+}
+
+.diploma_in_engineering {
+    padding: 70px 0;
+}
+
+
+/*---------- About Page -----------*/
+
+.about_welcome {
+    background: #CCCCCC;
+    padding: 60px 0 90px 0;
+}
+
+.about_welcome img {
+    display: block;
+    padding: 60px;
+    margin-left: auto;
+    margin-right:  auto;
+}
+
+.about_welcome h1 {
+    text-align: center;
+}
+
+.about_welcome h5 {
+    text-align: justify;
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+
+.about_text{
+    border: 2px solid #343A40;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/*----------Short Course Admission---------------------*/
+
+
+
+/*-------------------teacher-------------------------*/
+.teacher_info_title {
+    background: #003366;
+    color: #E4E9EF;
+    padding: 50px;
+    text-align: center;
+}
+
+.teacher_info{
+  box-sizing: border-box;
+}
+
+.columnn {
+  float: left;
+  width: 25%;
+  padding: 50px 8px 50px 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .columnn {
+    width: 100%;
+    display: block;
+  }
+}
+
+.cardd {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.containerr {
+  padding: 0 16px;
+}
+
+.containerr p {
+    margin:  0 0 5px 0;
+}
+
+.containerr::after, .roww::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.titlee {
+  color: grey;
+}
+
+.teacher_info_bottom {
+  width: 100%;
+  height: 8px;
+  background: #b41228;
+  outline: 0;
+  display: inline-block;
+}
+
+.teacher_info_bottom:hover {
+  background-color: #980b1a;
+}
+
+
+/*---------Contact Page----------*/
+.contact_form {
+    padding: 50px 0;
+}
+
+.contact_form_form {
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+}
+
+.contact_address {
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+}
+
+#map {
+    height: 500px;
+    width: 100%;
+}
+
+.contact_map {
+    padding: 50px 0;
+    background: #F4645F;
+}
+
+.jes_cam {
+    text-align: center;
+    padding: 20px 0 10px 0;
+}
+
+.mait_jessore_logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.mait_p {
+    font-size: 18px;
+}
+
+.others_campus {
+    padding: 80px 0;
+    background: #CCCCCC;
+}
+
+.others_campus .container .row .col-md-3 {
+    border: .5px solid white;
+    border-radius: 5px;
+}
+
+
+/*---------scrollbar----------*/
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #b41228; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #980b1a; 
+}
+
+    
+.d_title {
+    background: #003366;
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+}   
+
+#flip {
+    padding: 10px 0 5px 0;
+    text-align: center;
+    background-color: #555555;
+    border: solid 1px #c3c3c3;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+#panel {
+    padding: 30px;
+    display: none;
+    text-align: center;
+    background-color: #555555;
+    border: solid 1px #c3c3c3;
+    border-radius: 8px;
+    color: white;
+}
+
+.fee_ {
+    background: #5c005f;
+    color: azure;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 18px;
+    margin: 10px 0 10px 0;
+}
+
+#di_titel {
+    padding: 10px 0;
+    text-align: center;
+    background-color: #555555;
+    border: solid 1px #c3c3c3;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+#dis {
+    padding: 30px;
+    display: none;
+    text-align: center;
+    background-color: #555555;
+    border: solid 1px #c3c3c3;
+    border-radius: 8px;
+}
+
+.nav_title {
+    background: #0079b1;
+    border-radius: 5px;
+    z-index: -1;
+}
+
+.nav_title a{
+    color: white;
+    z-index: -1;
+}
+
+.nav_contant {
+    background: #0079b1;
+    color: white;
+    z-index: -1;
+}
